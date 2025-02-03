@@ -21,8 +21,8 @@ This is a **Flask-based AI chatbot** that allows users to **upload a PDF documen
 │   ├── index.html  # File Upload Page
 │   ├── chat.html   # Chat Interface
 │
-│── 📁 uploads      # Stores Uploaded PDFs (Auto genrated)
-│── 📁 vector_db    # Stores FAISS Index for each session (Auto genrated)
+│── 📁 uploads      # Stores Uploaded PDFs (Auto generated)
+│── 📁 vector_db    # Stores FAISS Index for each session (Auto generated)
 │── app.py          # Main Flask Server
 │── requirements.txt # List of Dependencies (This is my entire pip freeze results, some of them are not needed)
 │── README.md       # Documentation
