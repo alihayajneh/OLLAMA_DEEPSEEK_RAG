@@ -5,6 +5,7 @@ This is a **Flask-based AI chatbot** that allows users to **upload a PDF documen
 ## 🚀 Features
 
 - ✅ **Upload and Process PDFs**
+- ✅ **Ollama + LangChain itegration**
 - ✅ **Chatbot Interface with Markdown-Formatted Responses**
 - ✅ **Granite Embedding for Vector Search**
 - ✅ **DeepSeek-R1:7B for Answer Generation**
