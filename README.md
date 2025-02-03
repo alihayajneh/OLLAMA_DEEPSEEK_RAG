@@ -24,7 +24,7 @@ This is a **Flask-based AI chatbot** that allows users to **upload a PDF documen
 │── 📁 uploads      # Stores Uploaded PDFs (Auto genrated)
 │── 📁 vector_db    # Stores FAISS Index for each session (Auto genrated)
 │── app.py          # Main Flask Server
-│── requirements.txt # List of Dependencies
+│── requirements.txt # List of Dependencies (This is my entire pip freeze results, some of them are not needed)
 │── README.md       # Documentation
 ```
 
@@ -50,6 +50,25 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
+## 🏗️ Install Ollama Models
+
+Since this chatbot uses **Granite Embedding** for text processing and **DeepSeek-R1:7B** for response generation, you need to install these models using **Ollama**.
+
+### **1️⃣ Install Ollama**
+First, install Ollama on your system by following the instructions [here](https://ollama.com).
+
+### **2️⃣ Pull the Required Models**
+Run the following commands to download the required models:
+
+```bash
+# Install Granite Embedding Model (278M)
+ollama pull granite-embedding:278m
+
+# Install DeepSeek-R1:7B Model
+ollama pull deepseek-r1:7b
+```
+
+Once installed, you can run the chatbot without issues.
 ---
 
 ## 🎯 Usage
